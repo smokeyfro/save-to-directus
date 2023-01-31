@@ -1,4 +1,4 @@
-# save-to-directus
+# Save to Directus
  Firefox extension that lets you save the current tab to a Directus instance.
 
 Status: WIP
