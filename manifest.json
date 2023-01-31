@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "Save to Directus",
+  "author": "ChatGPT",
+  "version": "1.0",
+  "description": "Save the current website to Directus",
+  "permissions": [
+    "storage",
+    "webNavigation",
+    "activeTab",
+    "tabs",
+    "<all_urls>",
+    "https://api.directus.io/*"
+  ],
+  "options_ui": {
+      "page": "options.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "64": "images/icon64.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "64": "images/icon64.png"
+    }
+  }
+}

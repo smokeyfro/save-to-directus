@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Save to Directus</title>
+    </head>
+    <body>
+        <h1>Save to Directus</h1>
+
+        <p>Connect to your Directus instance, then select the collecton you would like to post to.</p>
+        <form>
+            <label for="apiUrl">API URL:</label>
+            <input type="text" id="apiUrl" name="apiUrl" placeholder="https://9g3k321.directus.app">
+            <br>
+            <label for="accessToken">Access Token:</label>
+            <input type="text" id="accessToken" name="accessToken" placeholder="Your Directus access token">
+            <br>
+            <label for="collection">Collection:</label>
+            <select id="collection" name="collection" disabled>
+                <option>Loading...</option>
+            </select>
+        </form>
+        <script src="options.js"></script>
+    </body>
+</html>
